@@ -16,6 +16,11 @@ public class TP2_Bieres_JOURDAN {
     public static void main(String[] args) {
         BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls", 7.0 ,"Dubuisson"); 
         uneBiere.lireEtiquette();
+        boolean va;
+        va=uneBiere.Decapsuler();
+        System.out.println(va);
+        System.out.println(uneBiere) ;
+       
         
         BouteilleBiere uneBiere2 = new BouteilleBiere("shouffe", 9.9 ,"tuson") ;
         uneBiere2.lireEtiquette();
@@ -24,6 +29,7 @@ public class TP2_Bieres_JOURDAN {
         uneBiere3.lireEtiquette();
         
     }
+     
         
 
         
