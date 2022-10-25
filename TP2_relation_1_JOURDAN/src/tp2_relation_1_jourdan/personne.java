@@ -12,6 +12,7 @@ package tp2_relation_1_jourdan;
 public class personne {
     String nom;
     String prenom;
+    int nbvoiture;
      voiture [] liste_voitures;
     
     
@@ -19,16 +20,19 @@ public class personne {
  public personne (String lenom, String leprenom) {
 lenom = nom;
 leprenom = prenom;
-liste_voitures= new voiture[3];
 
+
+liste_voitures = new voiture[3];
+nbvoiture=0;
 
     
+}
 
-
-
- }
+ 
+ 
+ 
     @Override
 public String toString () {
-return nom  + prenom + liste_voitures ; 
+return nom  + prenom ; 
     }
 }
