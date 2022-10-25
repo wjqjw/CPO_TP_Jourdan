@@ -15,14 +15,15 @@ public class voiture {
     String modèle;
     String marque;
     int puissance ;
-    String propriétaire;
+    String proprietaire;
     
     
  public voiture (String lemodéle, String lamarque, int lapuissance, String proprio ) {
 lemodéle = modèle;
 lamarque = marque;
 lapuissance = puissance;
-proprio = propriétaire;
+proprio = proprietaire;
+proprietaire = "null";
     
 
 
@@ -30,7 +31,7 @@ proprio = propriétaire;
  }
     @Override
 public String toString () {
-return marque  + modèle + puissance + propriétaire ; 
+return marque  + modèle + puissance + proprietaire ; 
     }
 }
 
