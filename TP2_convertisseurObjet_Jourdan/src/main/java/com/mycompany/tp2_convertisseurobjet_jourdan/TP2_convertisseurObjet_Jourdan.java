@@ -16,7 +16,5 @@ public class TP2_convertisseurObjet_Jourdan {
     }
     
 }
-public Convertisseur () {
- nbConversions = 0 ;
-}
+
 
