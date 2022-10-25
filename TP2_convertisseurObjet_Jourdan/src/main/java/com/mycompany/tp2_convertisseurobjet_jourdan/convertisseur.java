@@ -39,7 +39,7 @@ public double FarenheitVersCelcius(double Tf){
 }
 public double CelciusVersFarenheit(double Tc){
     double Tf;
-    Tf= (Tc+32.0)*(5.0/9.0);
+    Tf= (Tc)*(5.0/9.0)+32.0;
     nbConversions+=1;
     return Tf;
        
@@ -64,4 +64,5 @@ public String toString () {
 
 
     
+}
 }
