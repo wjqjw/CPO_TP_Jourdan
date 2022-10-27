@@ -47,7 +47,18 @@ uneMicra.proprietaire = reno ;
 System.out.println("la seconde voiture de reno est " + reno.liste_voitures[1] ) ;
     
     
-    
+  
+
+
+bob.ajouter_voiture(uneClio);
+System.out.println ("la premiere voiture de Bob est" + bob.liste_voitures [0]);
+bob.ajouter_voiture(une2008);
+System.out.println ("la deuxieme voiture de Bob est" + bob.liste_voitures [1]);
+reno.ajouter_voiture(uneMicra);
+System.out.println ("la premiere voiture de Reno est" + reno.liste_voitures [0]);
+reno.ajouter_voiture(uneMicra);
+System.out.println ("la deuxieme voiture de Reno est" + reno.liste_voitures [1]);
+
     }
     
 }

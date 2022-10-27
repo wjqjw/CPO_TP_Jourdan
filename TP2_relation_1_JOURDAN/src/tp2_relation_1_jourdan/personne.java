@@ -35,4 +35,28 @@ nbvoiture=0;
 public String toString () {
 return nom  + prenom ; 
     }
+
+
+public boolean ajouter_voiture (voiture voiture_a_ajouter) {
+        if (voiture_a_ajouter.proprietaire!=null){
+            System.out.println(voiture_a_ajouter + "déjà prise");
+            return false;
+            
+            
+        }
+        else {
+            if (this.nbvoiture==3){
+                System.out.println(this.nom+this.prenom+"a déjà 3 voitures");
+                return false; 
+            }
+            else {
+                this.liste_voitures[nbvoiture]=voiture_a_ajouter;
+                nbvoiture +=1;
+                voiture_a_ajouter.proprietaire=this;
+                return true; 
+            }
+        }
+    }
 }
+
+
